@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BACK_ENDPOINT = "https://qtify-backend-labs.crio.do"; // ✅ exact URL for Cypress
+export const BACK_ENDPOINT = "https://qtify-backend.labs.crio.do";
 
 export const fetchTopAlbums = async () => {
   try {
