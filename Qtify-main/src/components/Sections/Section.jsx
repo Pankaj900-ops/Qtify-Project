@@ -5,26 +5,26 @@ import styles from "./Section.module.css";
 import Carousal from "../Carousal/Carousal";
 
 const Section = ({ title, data = [], type }) => {
-  const [carosalToggle, setCarosalToggle] = useState(false);
+  const [showAll, setShowAll] = useState(false);
 
   const handleToggle = () => {
-    setCarosalToggle((prev) => !prev);
+    setShowAll((prev) => !prev);
   };
 
   return (
     <div>
       <div className={styles.header}>
         <h3>{title}</h3>
-        <h4 className={styles.toggleText} onClick={handleToggle}>
-          {carosalToggle ? "Show all" : "Collapse all"}
-        </h4>
+        <button className={styles.toggleBtn} onClick={handleToggle}>
+          {showAll ? "Collapse All" : "Show All"}
+        </button>
       </div>
 
       {data.length === 0 ? (
         <CircularProgress />
       ) : (
         <div className={styles.cardWrapper}>
-          {!carosalToggle ? (
+          {showAll ? (
             <div className={styles.wrapper}>
               {data.map((item) => (
                 <Card key={item.id} data={item} type={type} />
