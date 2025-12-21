@@ -14,7 +14,7 @@ const NavBar = () => {
       {/* Search Bar */}
       <input
         type="text"
-        placeholder="search"
+        placeholder="Search a song"
         className={styles.search}
       />
 
