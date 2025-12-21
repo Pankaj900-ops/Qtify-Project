@@ -3,7 +3,7 @@ import styles from "./NavBar.module.css";
 
 const NavBar = () => {
   return (
-    <nav className={styles.navBar}>
+    <div className={styles.navBar}>
       {/* Logo */}
       <img
         src="/logo.png"
@@ -14,7 +14,7 @@ const NavBar = () => {
       {/* Search Bar */}
       <input
         type="text"
-        placeholder="Search"
+        placeholder="search"
         className={styles.search}
       />
 
@@ -22,7 +22,8 @@ const NavBar = () => {
       <button className={styles.feedbackBtn}>
         Give Feedback
       </button>
-    </nav>
+    </div>
+    
   );
 };
 
