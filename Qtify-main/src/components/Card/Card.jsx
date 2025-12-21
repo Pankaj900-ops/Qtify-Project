@@ -30,6 +30,21 @@ const Card = ({ data, type }) => {
           </Tooltip>
         );
       }
+      case "song": {
+      const { title, artist, image } = data; 
+      return (
+        <div className={Styles.wrapper}>
+          <div className={Styles.card}>
+            <img src={image} alt="song"/>
+          </div>
+          <div className={Styles.titleWrapper}>
+            <p>{title}</p>
+            <span>{artist}</span>
+          </div>
+        </div>
+      );
+    }
+
       default:
         return <></>;
     }
