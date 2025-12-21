@@ -1,0 +1,17 @@
+.navBar {
+  display: flex;
+  align-items: center;          /* ✅ vertically centered (Test 2) */
+  padding: 0 32px;
+  background-color: #34C94B;
+  height: 74px;
+}
+
+.logo {
+  margin-left: 16px;            /* ✅ space to the left (Test 2) */
+}
+
+.search {
+  padding: 8px 12px;
+  margin-left: 32px;
+}
+

@@ -1,0 +1,9 @@
+.feedbackBtn {
+  margin-left: auto;
+  background-color: black;      /* ✅ Test 4 */
+  color: #34C94B;               /* ✅ Test 5 */
+  border-radius: 8px;           /* ✅ Test 6 */
+  padding: 8px 16px;
+  font-family: 'Poppins', sans-serif; /* ✅ Test 8 */
+  cursor: pointer;              /* ✅ Test 7 */
+}
