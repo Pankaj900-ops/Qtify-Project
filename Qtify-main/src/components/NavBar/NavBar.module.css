@@ -1,11 +1,12 @@
-.navBar {
-  display: flex;
-  align-items: center; 
-  padding: 0 32px;
-  justify-content: flex-start;
-  background-color: #34C94B;
-  height: 74px;
-}
+.navbar {
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 74px;
+    padding: 0px 32px;
+  }
 
 .logo {
   margin-left: 24px;
