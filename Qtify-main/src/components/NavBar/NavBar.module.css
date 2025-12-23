@@ -2,20 +2,21 @@
   display: flex;
   align-items: center; 
   padding: 0 32px;
+  justify-content: flex-start;
   background-color: #34C94B;
   height: 74px;
 }
 
 .logo {
-  margin-left: 12px;
-  display: block;      
-  height: 37px;         
+  margin-left: 24px;
+  display: block;   
+  height: 37px;   
   object-fit: contain;   
 }
 
 .search {
   padding: 8px 12px;
-  margin-left: 32px;
+  margin-left: 400px;
 }
 
 .feedbackBtn {
@@ -27,3 +28,5 @@
   cursor: pointer;
   font-family: "Poppins", sans-serif;
 }
+
+
