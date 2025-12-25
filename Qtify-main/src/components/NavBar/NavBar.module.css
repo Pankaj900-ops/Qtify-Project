@@ -1,33 +1,35 @@
 .navbar {
-    background-color: var(--color-primary);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw;
-    height: 74px;
-    padding: 0px 32px;
-  }
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 74px;
+  padding: 0px 32px;
+}
 
 .logo {
   margin-left: 24px;
-  display: block;   
-  height: 37px;   
-  object-fit: contain;   
+  display: flex;
+  align-items: center;
+  height: 37px;
+  object-fit: contain;
 }
 
 .search {
+  margin: 0 auto;
   padding: 8px 12px;
-  margin-left: 400px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 350px;
 }
 
 .feedbackBtn {
-  margin-left: auto;
   background-color: #000;
   color: #34C94B;
   border-radius: 8px;
   padding: 8px 16px;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
+  border: none;
 }
-
-
