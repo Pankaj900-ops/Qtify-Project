@@ -1,3 +1,6 @@
+
+
+
 .navbar {
   background-color: var(--color-primary);
   display: flex;
@@ -13,6 +16,9 @@
   align-items: center;
   height: 37px;
   object-fit: contain;
+  /* Add explicit vertical centering with margin-top */
+  margin-top: 18.5px;
+  margin-bottom: 18.5px;
 }
 
 .search {
